@@ -1,0 +1,331 @@
+body{
+    margin: 0px;
+}
+
+
+p{
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#top-header{
+    display: flex;
+    justify-content: center;
+    background-color: #697565;
+    width: 100%;
+    gap: 0px;
+}
+
+.top-flex-container{
+    display: flex;
+    height: 60vh;
+    width: 80%;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-div img{
+    border-radius: 50%;
+    height: 300px;
+    box-shadow: 10px 5px 5px black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.Personal-txt{
+    padding-left: 100px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.Personal-txt h1{
+    color: #1E201E;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+    width: 480px;
+    margin-bottom: 15px;
+}
+
+.Personal-txt p{
+    color: #ECDFCC;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.satellite{
+    height: 75px;
+    position: absolute;
+    left: 470px;
+    top: 70px;
+}
+
+hr{
+    border: dotted #1E201E 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+}
+
+#academic-journey{
+    margin-top: 70px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.aca-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.g{
+    height: 150px;
+    width: 400px;
+    background-color:#EEEEEE;
+    border-radius: 25%;
+    text-align: center;
+    background-color: #ECDFCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+}
+
+.g h3{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #3C3D37;
+    margin-bottom: 0px;
+}
+
+.g p{
+    font-size: 12px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0px;
+}
+
+
+.g2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+
+
+}
+
+.g3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #222831;
+    text-align: center;
+}
+
+.g img{
+    height: 50px;
+}
+
+
+#experience{
+    margin-bottom: 40px;
+}
+
+.exp-flex-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#experience .grid-container{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.experience-g{
+    background-color: transparent;
+}
+
+.carto-img{
+    height: 300px;
+}
+
+footer{
+    background-color: #697565;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+
+}
+
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.contactme{
+    font-size: 30px;
+}
+
+footer p{
+    color: #ECDFCC;
+    font-size: 15px;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+
+    hr{
+        margin: 30px auto;
+    } 
+
+    #top-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .top-flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .Personal-txt{
+        order: 1;
+        padding-left: 0px;
+    }
+
+    .image-div img{
+        height: 150px;
+    }
+
+    .Personal-txt h1{
+        color: #1E201E;
+        font-size: 20px;
+        width: 250px;
+        margin-bottom: 15px;
+    }
+
+    .Personal-txt p{
+        font-size: 10px;
+        padding-left: 0px;
+
+    }
+
+    .satellite{
+        height: 40px;
+        position: absolute;
+        left: 280px;
+        top: 140px;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .g{
+        height: 120px;
+        width: 350px;
+        background-color:#EEEEEE;
+        border-radius: 25%;
+        text-align: center;
+        background-color: #ECDFCC;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .exp-flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #experience .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .carto-img{
+        height: 150px;
+    }
+
+    .experience-g{
+        text-align: center;
+    }
+
+    .t2{
+        order: 1;
+    }
+
+    footer p{
+        color: #ECDFCC;
+        font-size: 10px;
+    }
+
+    .contactme{
+        font-size: 20px;
+    }
+
+}
